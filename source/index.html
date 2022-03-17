@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class = "page" lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: PINK</title>
   </head>
-  <body>
-
-    <header class = 'header'>
-      <nav class >
-
+  <body class = "page__body">
+    <header class = "page-header">
+      <a href="" class = "page-header__logo">
+        <img src="../source/img/pink-logo-mobile.svg" alt="PINK - пgриложение для настроения" width="74" height="23">
+      </a>
+      <nav class = "main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class = "site-list__item site-list__item--active">
+              Главная
+            </li>
+            <li class = "site-list__item site-list__item--active">
+              Фотографии
+            </li>
+            <li class = "site-list__item site-list__item--active">
+              Конкурс
+            </li>
+            <li class = "site-list__item site-list__item--active">
+              HTML ACADEMY
+            </li>
+          </ul>
+        </div>
       </nav>
+
+      <div class = "application">
+        <h1 class = application__title>Взгляните на жизнь иначе!</h1>
+        <a class = "application__link" href="##">Скачать приложение</a>
+        <div class = "application__img-wrapper">
+          <img src="../source/img/apple-logo.png" alt="Логотип компании Apple" width = "47" height = "56">
+          <img src="../source/img/android-logo.png" alt="Логотип операционной системы android" width = "43" height = "47">
+          <img src="../source/img/microsoft-logo.png" alt="Логотип компании microsoft" width = "44" height = "41">
+        </div>
+        <p class = "application__text">
+          Доступно для iPhone, iPad, Android,
+          Windows Phone, OS X, Windows 8
+        </p>
+      </div>
     </header>
 
   </body>
