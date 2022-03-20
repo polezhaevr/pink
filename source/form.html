@@ -44,20 +44,20 @@
         миль на вашу бонусную карту!</p>
     </section>
 
-    <form  method="get" action="https://echo.htmlacademy.ru">
+    <form class = "main-form" method="post" action="https://echo.htmlacademy.ru">
       <div class = "main-form__name">
         <ul class = "main-form__list">
           <li class = "main-form__item">
             <label class = "main-form__surname" for="surname">Фамилия:</label>
-           <input class = "main-form__surname-input" type= "input" id="surname" placeholder="Укажите фамилию *">
+           <input class = "main-form__surname-input" type= "text" id="surname" placeholder="Укажите фамилию *" name = "surname">
           </li>
           <li class = "main-form__item">
             <label class = "main-form__first-name" for="first-name">Имя:</label>
-           <input class = "main-form__first-name-input" type= "input" id="first-name " placeholder="Введите ваше имя *">
+           <input class = "main-form__first-name-input" type= "text" id="first-name " placeholder="Введите ваше имя *" name = "first-name">
           </li>
           <li class = "main-form__item">
             <label class = "main-form__patronymic" for="patronymic">Отчество:</label>
-           <input class = "main-form__patronymic-input" type= "input" id="patronymic" placeholder="Ну и отчество тоже">
+           <input class = "main-form__patronymic-input" type= "text" id="patronymic" placeholder="Ну и отчество тоже" name = "patronymic">
           </li>
         </ul>
       </div>
@@ -68,27 +68,27 @@
           <div class = "main-form__wrapper">
               <ul class ="main-form__check-list">
                 <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "took-a-selfie-with-a-shark" type="checkbox" checked >
+                  <input class = "main-form__check-list-checkbox" id = "took-a-selfie-with-a-shark" type="checkbox" name = "took-a-selfie-with-a-shark" checked >
                   <label class = "main-form__check-list-label" for = "took-a-selfie-with-a-shark">Сделал селфи с акулой</label>
                 </li>
                 <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "burnt-on-the-beach" type="checkbox" checked >
+                  <input class = "main-form__check-list-checkbox" id = "burnt-on-the-beach" type="checkbox" name = "burnt-on-the-beach"  checked >
                   <label class = "main-form__check-list-label" for = "burnt-on-the-beach">Обгорел на пляже</label>
                 </li>
                 <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "saw-chuck-norris" type="checkbox">
+                  <input class = "main-form__check-list-checkbox" id = "saw-chuck-norris" type="checkbox" name = "saw-chuck-norris" >
                   <label class = "main-form__check-list-label" for = "saw-chuck-norris">Видел Чака Норриса</label>
                 </li>
                 <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "bought-some-souvenirs" type="checkbox">
+                  <input class = "main-form__check-list-checkbox" id = "bought-some-souvenirs" type="checkbox" name = "bought-some-souvenirs" >
                   <label class = "main-form__check-list-label" for = "bought-some-souvenirs">Накупил сувениров</label>
                 </li>
                 <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "held-the-tower" type="checkbox" checked >
+                  <input class = "main-form__check-list-checkbox" id = "held-the-tower" type="checkbox" name = "held-the-tower"  checked >
                   <label class = "main-form__check-list-label" for = "held-the-tower">Удержал башню</label>
                 </li>
                 <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "smashed-the-hotel" type="checkbox">
+                  <input class = "main-form__check-list-checkbox" id = "smashed-the-hotel" type="checkbox" name = "smashed-the-hotel" >
                   <label class = "main-form__check-list-label" for = "smashed-the-hotel">Разгромил отель</label>
                 </li>
               </ul>
@@ -101,11 +101,11 @@
           <ul class = "main-form__list-contacts">
             <li class = "main-form__contacts-item">
               <label class = "main-form__contacts-number" for="number">Номер телефона</label>
-             <input class = "main-form__contacts-number-input" type= "input" id="number" placeholder="Номер, пожалуйста">
+             <input class = "main-form__contacts-number-input" type= "tel" id="number" placeholder="Номер, пожалуйста" name = "tel">
             </li>
             <li class = "main-form__contacts-item">
               <label class = "main-form__contacts-email" for="first-name">Адрес почты</label>
-             <input class = "main-form__contacts-email-input" type= "input" id="first-name " placeholder="Введите почту *">
+             <input class = "main-form__contacts-email-input" type= "email" id="first-name " placeholder="Введите почту *" name = "email">
             </li>
           </ul>
       </fieldset>
@@ -115,15 +115,15 @@
         <div class = "main-form__wrapper-application">
           <ul class ="main-form__application-list">
             <li class = main-form__application-item>
-              <input class = "main-form__application-checkbox" id = "ios" type="radio" checked >
+              <input class = "main-form__application-checkbox" id = "ios" type="radio" name = "ios" checked >
               <label class = "main-form__application-label" for = "ios">Pink для iOS</label>
             </li>
             <li class = main-form__application-item>
-              <input class = "main-form__application-checkbox" id = "android" type="radio" >
-              <label class = "main-form__application-label" for = "android">Pink на Android</label>
+              <input class = "main-form__application-checkbox" id = "android" type="radio"  name = "android">
+              <label class = "main-form__application-label" for = "android" >Pink на Android</label>
             </li>
             <li class = main-form__application-item>
-              <input class = "main-form__application-checkbox" id = "windows" type="radio">
+              <input class = "main-form__application-checkbox" id = "windows" type="radio" name = "windows">
               <label class = "main-form__application-label" for = "windows">Windows Phone</label>
             </li>
           </ul>
@@ -133,7 +133,7 @@
       <fieldset class = "main-form__comment">
         <legend class = "main-form__comment-header">Опишите свои эмоции</legend>
         <input type="text" placeholder = "Можно прям в красках, не
-        стесняясь в выражениях">
+        стесняясь в выражениях" name = "review">
       </fieldset>
 
       <button type="submit" class="main-form__button">Отправить форму</button>
