@@ -1,5 +1,34 @@
+body {
+  background-color: #F2F2F2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: local("Open-Sans"), local("Open Sans"), url("/source/fonts/opensans.woff") format("woff"), url("/source/fonts/opensans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Bold", sans-serif;
+  src: local("Open-Sans-Bold"), local("Open Sans Bold"), url("/source/fonts/opensansbold.woff") format("woff"), url("/source/fonts/opensansbold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Light", sans-serif;
+  src: local("Open-Sans-Light"), local("Open Sans Light"), url("/source/fonts/opensanslight.woff") format("woff"), url("/source/fonts/opensanslight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
 
 /*# sourceMappingURL=style.css.map */
- body {
-     background-color: tomato;
- }
