@@ -1,6 +1,3 @@
-body {
-  background-color: #F2F2F2;
-}
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +26,66 @@ a {
   src: local("Open-Sans-Light"), local("Open Sans Light"), url("/source/fonts/opensanslight.woff") format("woff"), url("/source/fonts/opensanslight.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
+}
+.page-header {
+  background: #1D2631;
+}
+.main-nav {
+  display: none;
+}
+.main-nav .site-list {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.main-nav .site-list .site-list__link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.application {
+  margin-top: 32px;
+}
+.application__title {
+  font-family: "Open Sans Light", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 280px;
+  padding-bottom: 50px;
+}
+.application__link {
+  border: 3px solid #FFFFFF;
+  border-radius: 29px;
+  padding-left: 39px;
+  padding-right: 39px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  font-family: "Open Sans Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.application__img-wrapper {
+  padding-top: 50px;
+}
+.application__text {
+  font-family: "Open Sans Light", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 280px;
+  color: #FFFFFF;
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
