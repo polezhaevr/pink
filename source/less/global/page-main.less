@@ -1,92 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-@font-face {
-  font-family: "Open Sans", sans-serif;
-  src: local("Open-Sans"), local("Open Sans"), url("/source/fonts/opensans.woff") format("woff"), url("/source/fonts/opensans.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans Bold", sans-serif;
-  src: local("Open-Sans-Bold"), local("Open Sans Bold"), url("/source/fonts/opensansbold.woff") format("woff"), url("/source/fonts/opensansbold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans Light", sans-serif;
-  src: local("Open-Sans-Light"), local("Open Sans Light"), url("/source/fonts/opensanslight.woff") format("woff"), url("/source/fonts/opensanslight.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-}
-.page-header {
-  background: #1D2631;
-}
-.main-nav {
-  display: none;
-}
-.main-nav .site-list {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
-.main-nav .site-list .site-list__link {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.application {
-  margin-top: 32px;
-}
-.application__title {
-  font-family: "Open Sans Light", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  color: #FFFFFF;
-  width: 280px;
-  padding-bottom: 50px;
-}
-.application__link {
-  border: 3px solid #FFFFFF;
-  border-radius: 29px;
-  padding-left: 39px;
-  padding-right: 39px;
-  padding-top: 19px;
-  padding-bottom: 19px;
-  font-family: "Open Sans Bold", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
-.application__img-wrapper {
-  padding-top: 50px;
-}
-.application__text {
-  font-family: "Open Sans Light", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  width: 280px;
-  color: #FFFFFF;
-  padding-top: 30px§;
-}
 .about-application__title {
   font-family: "Open Sans Light", sans-serif;
   font-style: normal;
@@ -97,9 +8,11 @@ a {
   color: #283645;
   margin-top: 46px;
 }
+
 .about-application__list-wrapper {
-  background-color: #F2F2F2;
+  background-color: @backgroundMainColor;
 }
+
 .about-application__header-text {
   font-family: "Open Sans Bold", sans-serif;
   font-style: normal;
@@ -107,8 +20,9 @@ a {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #000000;
+  color: @blackFonts;
 }
+
 .about-application__text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -116,20 +30,24 @@ a {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
-  color: #283645;
+  color: @darkGrayFonts;
 }
+
 .reviews {
-  background-color: #FFFFFF;
+  background-color: @whiteFonts;
 }
+
 .reviews__title {
   font-family: "Open Sans Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  color: #000000;
+  color: @blackFonts;
   line-height: 30px;
 }
+
+
 .reviews__description {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -137,22 +55,26 @@ a {
   font-size: 14px;
   line-height: 30px;
   text-align: center;
-  color: #283645;
+  color: @darkGrayFonts;
 }
+
 .price {
-  background-color: #F2F2F2;
+  background-color: @backgroundMainColor;
 }
+
 .price__options-item {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  color: #283645;
+  color: @darkGrayFonts;
 }
+
 .price__header {
-  background-color: #283645;
+  background-color: @darkGrayFonts;
 }
+
 .price__title {
   font-family: "Open Sans Bold", sans-serif;
   font-style: normal;
@@ -161,8 +83,9 @@ a {
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: @whiteFonts;
 }
+
 .price__cost {
   font-family: "Open Sans Light", sans-serif;
   font-style: normal;
@@ -171,8 +94,9 @@ a {
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: @whiteFonts;
 }
+
 .price__content-item {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -180,11 +104,13 @@ a {
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #283645;
+  color: @darkGrayFonts;
 }
+
 .contacts {
   margin-top: 50px;
 }
+
 .contacts__title-header {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -192,8 +118,9 @@ a {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-  color: #283645;
+  color: @darkGrayFonts;
 }
+
 .contacts__title {
   font-family: "Open Sans Bold", sans-serif;
   font-style: normal;
@@ -201,8 +128,9 @@ a {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #283645;
+  color: @darkGrayFonts;
 }
+
 .contacts__description {
   font-family: "Open Sans Light", sans-serif;
   font-style: normal;
@@ -210,8 +138,9 @@ a {
   font-size: 24px;
   line-height: 33px;
   text-align: center;
-  color: #D22856;
+  color: @pinkFonts;
 }
+
 .social-list__item {
   display: flex;
   align-items: center;
@@ -222,16 +151,12 @@ a {
   border: 3px solid #F2F2F2;
   border-radius: 50%;
 }
+
 .developer__text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #283645;
+  color: @darkGrayFonts;
 }
-.visually-hidden {
-  display: none;
-}
-
-/*# sourceMappingURL=style.css.map */
