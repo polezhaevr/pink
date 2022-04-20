@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class = "page" lang="ru">
+<html class="page" lang="ru">
+
 <head>
   <link rel="stylesheet" href="/css/style.css">
   <meta charset="UTF-8">
@@ -7,10 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: PINK</title>
 </head>
-<body class = "page__form">
+
+<body class="page__form">
   <header class="page-header">
     <a href="" class="page-header__logo">
-      <img src="../source/img/pink-logo-mobile.svg" alt="PINK - пgриложение для настроения" width="74" height="23">
+      <img src="/img/pink-logo-mobile.svg" alt="PINK - приложение для настроения" width="74" height="23">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -31,115 +33,130 @@
         </ul>
       </div>
     </nav>
-  </header>
-
-  <main>
     <section class="header-form">
       <h1 class="header-form__title">Конкурс на самое
         безбашенное
         путешествие с Пинк</h1>
     </section>
+  </header>
+
+  <main>
     <section class="form-title">
       <p class="form-title__text">Поделитесь своей историей и получите
         шанс выиграть ценный приз — 1000
         миль на вашу бонусную карту!</p>
     </section>
 
-    <form class = "main-form" method="post" action="https://echo.htmlacademy.ru">
-      <div class = "main-form__name">
-        <ul class = "main-form__list">
-          <li class = "main-form__item">
-            <label class = "main-form__surname" for="surname">Фамилия:</label>
-           <input class = "main-form__surname-input" type= "text" id="surname" placeholder="Укажите фамилию *" name = "surname">
+    <form class="main-form" method="post" action="https://echo.htmlacademy.ru">
+      <div class="main-form__name">
+        <ul class="main-form__list">
+          <li class="main-form__item">
+            <label class="main-form__surname" for="surname">Фамилия:</label>
+            <input class="main-form__surname-input" type="text" id="surname" placeholder="Укажите фамилию *"
+              name="surname">
           </li>
-          <li class = "main-form__item">
-            <label class = "main-form__first-name" for="first-name">Имя:</label>
-           <input class = "main-form__first-name-input" type= "text" id="first-name " placeholder="Введите ваше имя *" name = "first-name">
+          <li class="main-form__item">
+            <label class="main-form__first-name" for="first-name">Имя:</label>
+            <input class="main-form__first-name-input" type="text" id="first-name " placeholder="Введите ваше имя *"
+              name="first-name">
           </li>
-          <li class = "main-form__item">
-            <label class = "main-form__patronymic" for="patronymic">Отчество:</label>
-           <input class = "main-form__patronymic-input" type= "text" id="patronymic" placeholder="Ну и отчество тоже" name = "patronymic">
+          <li class="main-form__item">
+            <label class="main-form__patronymic" for="patronymic">Отчество:</label>
+            <input class="main-form__patronymic-input" type="text" id="patronymic" placeholder="Ну и отчество тоже"
+              name="patronymic">
           </li>
         </ul>
       </div>
 
-      <fieldset class = main-form__achievements>
-        <legend class = "main-form__header-achievements">Ваши безбашенные
-          достижения в путешествии</legend>
-          <div class = "main-form__wrapper">
-              <ul class ="main-form__check-list">
-                <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "took-a-selfie-with-a-shark" type="checkbox" name = "took-a-selfie-with-a-shark" checked >
-                  <label class = "main-form__check-list-label" for = "took-a-selfie-with-a-shark">Сделал селфи с акулой</label>
-                </li>
-                <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "burnt-on-the-beach" type="checkbox" name = "burnt-on-the-beach"  checked >
-                  <label class = "main-form__check-list-label" for = "burnt-on-the-beach">Обгорел на пляже</label>
-                </li>
-                <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "saw-chuck-norris" type="checkbox" name = "saw-chuck-norris" >
-                  <label class = "main-form__check-list-label" for = "saw-chuck-norris">Видел Чака Норриса</label>
-                </li>
-                <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "bought-some-souvenirs" type="checkbox" name = "bought-some-souvenirs" >
-                  <label class = "main-form__check-list-label" for = "bought-some-souvenirs">Накупил сувениров</label>
-                </li>
-                <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "held-the-tower" type="checkbox" name = "held-the-tower"  checked >
-                  <label class = "main-form__check-list-label" for = "held-the-tower">Удержал башню</label>
-                </li>
-                <li class = main-form__check-list-item>
-                  <input class = "main-form__check-list-checkbox" id = "smashed-the-hotel" type="checkbox" name = "smashed-the-hotel" >
-                  <label class = "main-form__check-list-label" for = "smashed-the-hotel">Разгромил отель</label>
-                </li>
-              </ul>
+      <div class = "main-form__achievements-wrapper">
+        <fieldset class=main-form__achievements>
+          <legend class="main-form__header-achievements">Ваши безбашенные
+            достижения в путешествии</legend>
+          <div class="main-form__wrapper">
+            <ul class="main-form__check-list">
+              <li class=main-form__check-list-item>
+                <input class="main-form__check-list-checkbox" id="took-a-selfie-with-a-shark" type="checkbox"
+                  name="took-a-selfie-with-a-shark" checked>
+                <label class="main-form__check-list-label" for="took-a-selfie-with-a-shark">Сделал селфи с акулой</label>
+              </li>
+              <li class=main-form__check-list-item>
+                <input class="main-form__check-list-checkbox" id="burnt-on-the-beach" type="checkbox"
+                  name="burnt-on-the-beach" checked>
+                <label class="main-form__check-list-label" for="burnt-on-the-beach">Обгорел на пляже</label>
+              </li>
+              <li class=main-form__check-list-item>
+                <input class="main-form__check-list-checkbox" id="saw-chuck-norris" type="checkbox"
+                  name="saw-chuck-norris">
+                <label class="main-form__check-list-label" for="saw-chuck-norris">Видел Чака Норриса</label>
+              </li>
+              <li class=main-form__check-list-item>
+                <input class="main-form__check-list-checkbox" id="bought-some-souvenirs" type="checkbox"
+                  name="bought-some-souvenirs">
+                <label class="main-form__check-list-label" for="bought-some-souvenirs">Накупил сувениров</label>
+              </li>
+              <li class=main-form__check-list-item>
+                <input class="main-form__check-list-checkbox" id="held-the-tower" type="checkbox" name="held-the-tower"
+                  checked>
+                <label class="main-form__check-list-label" for="held-the-tower">Удержал башню</label>
+              </li>
+              <li class=main-form__check-list-item>
+                <input class="main-form__check-list-checkbox" id="smashed-the-hotel" type="checkbox"
+                  name="smashed-the-hotel">
+                <label class="main-form__check-list-label" for="smashed-the-hotel">Разгромил отель</label>
+              </li>
+            </ul>
           </div>
-      </fieldset>
-
-      <fieldset class = "main-form__contacts">
-        <legend class = "main-form__contacts-header">Контактная информация</legend>
-        <div class = "main-form__contacts">
-          <ul class = "main-form__list-contacts">
-            <li class = "main-form__contacts-item">
-              <label class = "main-form__contacts-number" for="number">Номер телефона</label>
-             <input class = "main-form__contacts-number-input" type= "tel" id="number" placeholder="Номер, пожалуйста" name = "tel">
-            </li>
-            <li class = "main-form__contacts-item">
-              <label class = "main-form__contacts-email" for="first-name">Адрес почты</label>
-             <input class = "main-form__contacts-email-input" type= "email" id="first-name " placeholder="Введите почту *" name = "email">
-            </li>
-          </ul>
-      </fieldset>
-
-      <fieldset class = "main-form__application">
-        <legend class = "main-form__application-header">С каким приложением путешествовали?</legend>
-        <div class = "main-form__wrapper-application">
-          <ul class ="main-form__application-list">
-            <li class = main-form__application-item>
-              <input class = "main-form__application-checkbox" id = "ios" type="radio" name = "ios" checked >
-              <label class = "main-form__application-label" for = "ios">Pink для iOS</label>
-            </li>
-            <li class = main-form__application-item>
-              <input class = "main-form__application-checkbox" id = "android" type="radio"  name = "android">
-              <label class = "main-form__application-label" for = "android" >Pink на Android</label>
-            </li>
-            <li class = main-form__application-item>
-              <input class = "main-form__application-checkbox" id = "windows" type="radio" name = "windows">
-              <label class = "main-form__application-label" for = "windows">Windows Phone</label>
-            </li>
-          </ul>
+        </fieldset>
       </div>
+
+      <fieldset class="main-form__contacts">
+        <legend class="main-form__contacts-header">Контактная информация</legend>
+        <div class="main-form__contacts">
+          <ul class="main-form__list-contacts">
+            <li class="main-form__contacts-item">
+              <label class="main-form__contacts-number" for="number">Номер телефона</label>
+              <input class="main-form__contacts-number-input" type="tel" id="number" placeholder="Номер, пожалуйста"
+                name="tel">
+            </li>
+            <li class="main-form__contacts-item">
+              <label class="main-form__contacts-email" for="first-name">Адрес почты</label>
+              <input class="main-form__contacts-email-input" type="email" id="first-name " placeholder="Введите почту *"
+                name="email">
+            </li>
+          </ul>
       </fieldset>
 
-      <fieldset class = "main-form__comment">
-        <legend class = "main-form__comment-header">Опишите свои эмоции</legend>
-        <input type="text" placeholder = "Можно прям в красках, не
-        стесняясь в выражениях" name = "review">
+      <div class = "main-form__application-wrapper" >
+        <fieldset class="main-form__application">
+          <legend class="main-form__application-header">С каким приложением путешествовали?</legend>
+          <div class="main-form__wrapper-application">
+            <ul class="main-form__application-list">
+              <li class=main-form__application-item>
+                <input class="main-form__application-checkbox" id="ios" type="radio" name="ios" checked>
+                <label class="main-form__application-label" for="ios">Pink для iOS</label>
+              </li>
+              <li class=main-form__application-item>
+                <input class="main-form__application-checkbox" id="android" type="radio" name="android">
+                <label class="main-form__application-label" for="android">Pink на Android</label>
+              </li>
+              <li class=main-form__application-item>
+                <input class="main-form__application-checkbox" id="windows" type="radio" name="windows">
+                <label class="main-form__application-label" for="windows">Windows Phone</label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+
+
+      <fieldset class="main-form__comment">
+        <legend class="main-form__comment-header">Опишите свои эмоции</legend>
+        <input class="main-form__comment-input" type="text" placeholder="Можно прям в красках, не
+        стесняясь в выражениях" name="review">
       </fieldset>
 
       <button type="submit" class="main-form__button">Отправить форму</button>
-      <p class = "main-form__text"> — обязательные поля</p>
-
+      <p class="main-form__text"> — обязательные поля</p>
     </form>
 
   </main>
@@ -147,7 +164,7 @@
 
   <footer class="page-footer">
     <a href="" class="page-footer__logo">
-      <img src="../source/img/logotype-blue-tablet.png" alt="PINK - пgриложение для настроения" width="145" height="40">
+      <img src="/img/logotype-blue-tablet.png" alt="PINK - пgриложение для настроения" width="145" height="40">
     </a>
     <ul class="social-list">
       <li class="social-list__item">
@@ -181,9 +198,10 @@
     <div class="developer">
       <p class="developer__text">Разработано</p>
       <a href="" class="developer__img">
-        <img src="../source/img/html academy.png" alt="PINK - пgриложение для настроения" width="27" height="34">
+        <img src="/img/html academy.png" alt="PINK - пgриложение для настроения" width="27" height="34">
       </a>
     </div>
   </footer>
 </body>
+
 </html>
