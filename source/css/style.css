@@ -30,9 +30,6 @@ a {
 .page-header {
   background: #1D2631;
 }
-.main-nav {
-  display: none;
-}
 .main-nav .site-list {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -230,7 +227,8 @@ a {
   line-height: 18px;
   color: #283645;
 }
-.header-form__title {
+.header-form__title,
+.header-catalog__title {
   font-family: "Open Sans Light", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -404,6 +402,93 @@ a {
   line-height: 30px;
   text-transform: uppercase;
   color: #283645;
+}
+.catalog-title__text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #283645;
+}
+.photo-catalog {
+  background-color: #F2F2F2;
+}
+.photo-catalog .photo-catalog__text-name {
+  font-family: "Open Sans Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+.photo-catalog .photo-catalog__text-name--time {
+  font-family: "Open Sans Light", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #283645;
+}
+.photo-catalog .photo-catalog__review {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+.photo-catalog .photo-catalog__like {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #D22856;
+}
+.footer-catalog__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #283645;
+}
+.photo-redactor {
+  background-color: #F2F2F2;
+}
+.photo-redactor .photo-redactor__btn-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.photo-redactor .photo-redactor__btn {
+  font-family: "Open Sans Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #D22856;
+  border: 3px solid #D22856;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 90px;
+  padding-right: 90px;
+  width: 280px;
+}
+.photo-redactor .photo-redactor__btn--none {
+  opacity: 0.1;
+  border: 3px solid #283645;
+  color: #283645;
+}
+.photo-redactor .photo-redactor__btn:nth-child(2) {
+  margin-top: 12px;
 }
 .visually-hidden {
   display: none;
